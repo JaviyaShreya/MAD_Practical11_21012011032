@@ -11,6 +11,7 @@ class PersonTable {
         val COLUMN_PERSON_GPS_LAT = "person_lat"
         val COLUMN_PERSON_GPS_LOG = "person_log"
 
+
         val CREATE_TABLE =("CREATE_TABLE" + TABLE_NAME + "("
                 + COLUMN_ID + "TEXT PRIMARY KRY,"
                 + COLUMN_NAME + "TEXT,"

@@ -32,7 +32,6 @@ class PersonAdapter (val context: Context,val personArray: ArrayList<Person>):Re
         view.findViewById<MaterialButton>(R.id.location).setOnClickListener {
             Intent(context, MapsActivity::class.java).putExtra("Object", personArray[position])
                 .apply { context.startActivity(this) }
-
         }
     }
 }

@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
     private fun getPersonDetailsFromJson(sJson: String?) {
         val personList = ArrayList<Person>()
         try {
